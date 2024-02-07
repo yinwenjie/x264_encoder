@@ -10,10 +10,10 @@ else()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -o2")
 endif()
 
-set(x264_include_dir ${PROJECT_SOURCE_DIR}/../x264_output/include)
+set(x264_include_dir ${PROJECT_SOURCE_DIR}/x264_install/include)
 include_directories(${x264_include_dir})
 
-set(x264_lib_dir ${PROJECT_SOURCE_DIR}/../x264_output/lib)
+set(x264_lib_dir ${PROJECT_SOURCE_DIR}/x264_install/lib)
 link_directories(${x264_lib_dir})
 
 include_directories(${PROJECT_SOURCE_DIR}/inc)
