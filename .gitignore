@@ -1,3 +1,5 @@
 .DS_Store
 .vscode
 build
+x264
+x264_install
